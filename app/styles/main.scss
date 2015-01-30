@@ -42,23 +42,8 @@ body {
   color: #777;
 }
 
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-  p + h4 {
-    margin-top: 28px;
-  }
-}
-
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
 
   /* Remove the padding we set earlier */
   .header,
@@ -79,16 +64,16 @@ body {
   }
 }
 
-// My CSS
+/*My CSS*/
 .carousel .item {
   height: 100%;
 }
 
 body {
-  background: url(/images/Xbackground.png), -webkit-linear-gradient(rgba(36, 34, 33, 1), rgba(65, 64, 64, 1)); /* For Safari 5.1 to 6.0 */
-  background: url(/images/Xbackground.png), -o-linear-gradient(rgba(36, 34, 33, 1), rgba(65, 64, 64, 1)); /* For Opera 11.1 to 12.0 */
-  background: url(/images/Xbackground.png), -moz-linear-gradient(rgba(36, 34, 33, 1), rgba(65, 64, 64, 1)); /* For Firefox 3.6 to 15 */
-  background: url(/images/Xbackground.png), linear-gradient(rgba(36, 34, 33, 1), rgba(65, 64, 64, 1)); /* Standard syntax */
+  background: url(/images/Xbackground.png) no-repeat, -webkit-linear-gradient(rgba(36, 34, 33, 1), rgba(65, 64, 64, 1)); /* For Safari 5.1 to 6.0 */
+  background: url(/images/Xbackground.png) no-repeat, -o-linear-gradient(rgba(36, 34, 33, 1), rgba(65, 64, 64, 1)); /* For Opera 11.1 to 12.0 */
+  background: url(/images/Xbackground.png) no-repeat, -moz-linear-gradient(rgba(36, 34, 33, 1), rgba(65, 64, 64, 1)); /* For Firefox 3.6 to 15 */
+  background: url(/images/Xbackground.png) no-repeat, linear-gradient(rgba(36, 34, 33, 1), rgba(65, 64, 64, 1)); /* Standard syntax */
 }
 
 .nav a {
@@ -97,6 +82,15 @@ body {
 
 p {
   color: white;
+}
+
+.font-green {
+  color: #b9d324;
+}
+
+#myCarousel {
+  max-width: 900px;
+  margin: 0 15% 0 15%;
 }
 
 #weAre {
@@ -108,4 +102,12 @@ p {
 }
 #weAre .weAreMain {
   margin: 0% 5% 0% 5%;
+}
+
+#aboutX {
+  background-color: #191716;
+  padding: 25px;
+}
+#aboutX img {
+  border: gray solid;
 }
