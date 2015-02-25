@@ -10,12 +10,6 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   padding: 0.2em 0;
 }
 
-/* Space out content a bit */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -70,6 +64,7 @@ body {
 }
 
 body {
+  padding-top: 20px;
   background: url(/images/Xbackground.png) no-repeat, -webkit-linear-gradient(rgba(36, 34, 33, 1), rgba(65, 64, 64, 1)); /* For Safari 5.1 to 6.0 */
   background: url(/images/Xbackground.png) no-repeat, -o-linear-gradient(rgba(36, 34, 33, 1), rgba(65, 64, 64, 1)); /* For Opera 11.1 to 12.0 */
   background: url(/images/Xbackground.png) no-repeat, -moz-linear-gradient(rgba(36, 34, 33, 1), rgba(65, 64, 64, 1)); /* For Firefox 3.6 to 15 */
@@ -87,6 +82,9 @@ p {
 .font-green {
   color: #b9d324;
 }
+.font-white {
+  color: #fff;
+}
 
 #myCarousel {
   max-width: 900px;
@@ -94,7 +92,6 @@ p {
 }
 
 #weAre {
-  margin: 20px 0px 20px 0px;
 }
 #weAre h2 {
   background-color: white;
@@ -110,4 +107,30 @@ p {
 }
 #aboutX img {
   border: gray solid;
+}
+
+#corp-events {
+  background: url(/images/X.png) no-repeat white;
+  background-position: 40px 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#corp-events p {
+  color: black;
+}
+
+#wedding {
+  background: url(/images/wedding-background.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#wedding .green-box {
+  background-color: rgba(156,203,59,0.5);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.footer {
+  background-color: #191716;
 }

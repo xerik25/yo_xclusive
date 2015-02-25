@@ -4522,11 +4522,6 @@ button.close {
   color: #000;
   padding: 0.2em 0; }
 
-/* Space out content a bit */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px; }
-
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header, .marketing, .footer {
   padding-left: 15px;
@@ -4564,6 +4559,7 @@ body {
   height: 100%; }
 
 body {
+  padding-top: 20px;
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
@@ -4579,12 +4575,12 @@ p {
 .font-green {
   color: #b9d324; }
 
+.font-white {
+  color: #fff; }
+
 #myCarousel {
   max-width: 900px;
   margin: 0 15% 0 15%; }
-
-#weAre {
-  margin: 20px 0px 20px 0px; }
 
 #weAre h2 {
   background-color: white;
@@ -4599,3 +4595,26 @@ p {
 
 #aboutX img {
   border: gray solid; }
+
+#corp-events {
+  background: url(/images/X.png) no-repeat white;
+  background-position: 40px 30px;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+#corp-events p {
+  color: black; }
+
+#wedding {
+  background: url(/images/wedding-background.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+#wedding .green-box {
+  background-color: rgba(156, 203, 59, 0.5);
+  margin-left: 5%;
+  margin-right: 5%; }
+
+.footer {
+  background-color: #191716; }
